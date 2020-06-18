@@ -1,10 +1,18 @@
 /* *****************************************************************************
- *  Name:              Ricky Singh
- *  Strings and command-line arguments. Write a program HelloGoodbye.java that
- * takes two names as command-line arguments and prints hello and goodbye
- * messages as shown below (with the names for the hello message in the same
- * order as the command-line arguments and with the names for the goodbye
- * message in reverse order).
+ *  Name:   Ricky Singh
+ *  Class:  Princeton: Computer Science: Programming with a Purpose
+ *
+ *  Compilation: javac HelloGoodbye.java
+ *  Execution: java HelloGoodbye name1 name2
+ *
+ *  Purpose: Takes two names as command-line arguments and prints Hello and
+ *  Goodbye messages with the names from the command-line arguments.  The names
+ *  for the Hello message are in the same order as the command-line arguments
+ *  and the names for the Goodbye message are in reverse order.
+ *
+ *  % java HelloGoodbye Kevin Bob
+ *  Hello Kevin and Bob.
+ *  Goodbye Bob and Kevin.
  **************************************************************************** */
 
 public class HelloGoodbye {
